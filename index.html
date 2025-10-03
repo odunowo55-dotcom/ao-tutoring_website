@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A.O Tutoring Solutions</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background: #f4f7fb;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(90deg, #0d47a1, #000);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #bbdefb;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0d47a1;
+      border-bottom: 2px solid #0d47a1;
+      padding-bottom: 0.5rem;
+    }
+
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .service-box {
+      flex: 1 1 250px;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      transition: transform 0.2s;
+    }
+
+    .service-box:hover {
+      transform: scale(1.05);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 1rem;
+    }
+
+    input, textarea, button {
+      padding: 12px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background: #0d47a1;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #000;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #000;
+      color: #bbdefb;
+      margin-top: 2rem;
+    }
+
+    .contact-info {
+      margin-top: 1rem;
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .contact-info p {
+      margin: 0.3rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>A.O Tutoring Solutions</h1>
+    <p>Transforming grades, unlocking potential.</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Subjects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Ademola Odunowo, founder of A.O Tutoring Solutions. I specialize in helping students improve their grades and confidence in Maths and Physics. Whether you're preparing for GCSEs or A-Levels, I provide personalized lessons tailored to your learning style.</p>
+  </section>
+
+  <section id="services">
+    <h2>Subjects Offered</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>GCSE Maths</h3>
+        <p>Master core concepts, exam techniques, and problem-solving skills to boost your GCSE Maths grades.</p>
+      </div>
+      <div class="service-box">
+        <h3>GCSE Physics</h3>
+        <p>Clear explanations, practice questions, and exam preparation to achieve top marks in GCSE Physics.</p>
+      </div>
+      <div class="service-box">
+        <h3>A-Level Maths</h3>
+        <p>Build advanced skills in calculus, algebra, and statistics to succeed in A-Level Maths exams.</p>
+      </div>
+      <div class="service-box">
+        <h3>A-Level Physics</h3>
+        <p>Deep understanding of physics principles, problem-solving, and exam strategies for A-Level success.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Get in touch to book lessons or ask any questions.</p>
+
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/mqaybgqe" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Direct Contact Info -->
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:odunowo55@icloud.com">odunowo55@icloud.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+447867006734">07867 006734</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 A.O Tutoring Solutions | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
